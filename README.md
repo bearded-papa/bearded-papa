@@ -13,3 +13,17 @@
 #### Gaming
 
  - [Minecraft (Bedrock)](https://github.com/bearded-papa/homelab/tree/main/minecraft-bedrock/)
+
+#### Tools
+ - [Cloudflare](https://github.com/bearded-papa/homelab/tree/main/cloudflare/)
+ - [Dockge](https://github.com/bearded-papa/homelab/tree/main/dockge/)
+ - [Filebrowser](https://github.com/bearded-papa/homelab/tree/main/filebrowser/)
+ - [Scrutiny](https://github.com/bearded-papa/homelab/tree/main/scrutiny/)
+
+#### Note Taking
+ - [Flatnotes](https://github.com/bearded-papa/homelab/tree/main/flatnotes/)
+
+#### Misc
+ - [Homepage](https://github.com/bearded-papa/homelab/tree/main/homepage/)
+ - [Webtrees](https://github.com/bearded-papa/homelab/tree/main/webtrees/)
+ - 
