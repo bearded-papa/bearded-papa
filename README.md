@@ -1,16 +1,15 @@
-### Hi there 👋
+# Home Lab Setup
 
-<!--
-**bearded-papa/bearded-papa** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Contents
 
-Here are some ideas to get you started:
+#### Media Server
+ - [Plex](https://github.com/bearded-papa/homelab/tree/main/plex/)
+ - [Sonarr](https://github.com/bearded-papa/homelab/tree/main/sonarr/)
+ - [Radarr](https://github.com/bearded-papa/homelab/tree/main/radarr/)
+ - [Prowlarr](https://github.com/bearded-papa/homelab/tree/main/prowlarr/)
+ - [Requestrr](https://github.com/bearded-papa/homelab/tree/main/requestrr/)
+ - [Deluge](https://github.com/bearded-papa/homelab/tree/main/deluge/)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+#### Gaming
+
+ - [Minecraft (Bedrock)](https://github.com/bearded-papa/homelab/tree/main/minecraft-bedrock/)
