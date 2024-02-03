@@ -1,6 +1,6 @@
-# Home Lab Setup
+#  Brain Dump
 
-## Contents
+## [Home Lab Setup](https://github.com/bearded-papa/homelab/)
 
 #### Media Server
  - [Plex](https://github.com/bearded-papa/homelab/tree/main/plex/)
