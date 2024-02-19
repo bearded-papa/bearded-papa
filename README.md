@@ -6,6 +6,7 @@
  - [Plex](https://github.com/bearded-papa/homelab/tree/main/plex/)
  - [Sonarr](https://github.com/bearded-papa/homelab/tree/main/sonarr/)
  - [Radarr](https://github.com/bearded-papa/homelab/tree/main/radarr/)
+ - [Readarr](https://github.com/bearded-papa/homelab/tree/main/readarr)
  - [Prowlarr](https://github.com/bearded-papa/homelab/tree/main/prowlarr/)
  - [Requestrr](https://github.com/bearded-papa/homelab/tree/main/requestrr/)
  - [Deluge](https://github.com/bearded-papa/homelab/tree/main/deluge/)
