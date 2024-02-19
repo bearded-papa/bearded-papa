@@ -20,6 +20,7 @@
  - [Kopia](https://github.com/bearded-papa/homelab/tree/main/kopia)
  - [Dockge](https://github.com/bearded-papa/homelab/tree/main/dockge/)
  - [Filebrowser](https://github.com/bearded-papa/homelab/tree/main/filebrowser/)
+ - [WhatsUpDocker](https://github.com/bearded-papa/homelab/tree/main/whatsupdocker)
  - [Scrutiny](https://github.com/bearded-papa/homelab/tree/main/scrutiny/)
 
 #### Note Taking
