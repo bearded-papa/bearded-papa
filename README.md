@@ -10,6 +10,7 @@
  - [Prowlarr](https://github.com/bearded-papa/homelab/tree/main/prowlarr/)
  - [Requestrr](https://github.com/bearded-papa/homelab/tree/main/requestrr/)
  - [Deluge](https://github.com/bearded-papa/homelab/tree/main/deluge/)
+ - [Immich](https://github.com/bearded-papa/homelab/tree/main/immich)
 
 #### Gaming
 
