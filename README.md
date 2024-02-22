@@ -1,6 +1,6 @@
 #  Brain Dump
 
-### [Useful Information - Personal Wiki](https://github.com/bearded-papa/useful-information)
+## [Useful Information - Personal Wiki](https://github.com/bearded-papa/useful-information)
 
 ## [Home Lab Setup](https://github.com/bearded-papa/homelab/)
 
