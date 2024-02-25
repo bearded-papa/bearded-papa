@@ -5,14 +5,14 @@
 ## - [Home Lab Setup](https://github.com/bearded-papa/homelab/)
 
 #### Media Server
- - [Plex](https://github.com/bearded-papa/homelab/tree/main/plex/)
- - [Jellyfin](https://github.com/bearded-papa/homelab/tree/main/jellyfin)
- - [Sonarr](https://github.com/bearded-papa/homelab/tree/main/sonarr/)
- - [Radarr](https://github.com/bearded-papa/homelab/tree/main/radarr/)
- - [Readarr](https://github.com/bearded-papa/homelab/tree/main/readarr)
- - [Prowlarr](https://github.com/bearded-papa/homelab/tree/main/prowlarr/)
+ - [Plex](https://github.com/bearded-papa/homelab/tree/main/plex/) - Media Server
+ - [Jellyfin](https://github.com/bearded-papa/homelab/tree/main/jellyfin) - Media Server
+ - [Sonarr](https://github.com/bearded-papa/homelab/tree/main/sonarr/) - Monitors multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them
+ - [Radarr](https://github.com/bearded-papa/homelab/tree/main/radarr/) - A fork of Sonarr to work with movies
+ - [Readarr](https://github.com/bearded-papa/homelab/tree/main/readarr) - Book Manager and Automation (Sonarr for Ebooks)
+ - [Prowlarr](https://github.com/bearded-papa/homelab/tree/main/prowlarr/) - indexer manager/proxy that integrates seamlessly with Sonarr, Radarr, Lidarr, and Readarr offering complete management of your indexers
  - [Requestrr](https://github.com/bearded-papa/homelab/tree/main/requestrr/)
- - [Deluge](https://github.com/bearded-papa/homelab/tree/main/deluge/)
+ - [Deluge](https://github.com/bearded-papa/homelab/tree/main/deluge/) - a lightweight, cross-platform BitTorrent client.
 
 #### Storage
  - [Immich](https://github.com/bearded-papa/homelab/tree/main/immich)
