@@ -12,7 +12,7 @@
  - [Readarr](https://github.com/bearded-papa/homelab/tree/main/readarr) - Book Manager and Automation (Sonarr for Ebooks)
  - [Prowlarr](https://github.com/bearded-papa/homelab/tree/main/prowlarr/) - indexer manager/proxy that integrates seamlessly with Sonarr, Radarr, Lidarr, and Readarr offering complete management of your indexers
  - [Requestrr](https://github.com/bearded-papa/homelab/tree/main/requestrr/) - A chatbot used to simplify using services like Sonarr/Radarr/Overseerr/Ombi via the use of chat!
- - [Deluge](https://github.com/bearded-papa/homelab/tree/main/deluge/) - a lightweight, cross-platform BitTorrent client.
+ - [Deluge](https://github.com/bearded-papa/homelab/tree/main/deluge/) - a lightweight, cross-platform BitTorrent client
 
 #### Storage
  - [Immich](https://github.com/bearded-papa/homelab/tree/main/immich) - High performance self-hosted photo and video backup solution
@@ -23,17 +23,17 @@
 
 #### Tools
  - [Cloudflare](https://github.com/bearded-papa/homelab/tree/main/cloudflare/)
- - [Backrest](https://github.com/bearded-papa/homelab/tree/main/backrest) - A web-accessible backup solution built on top of restic.
+ - [Backrest](https://github.com/bearded-papa/homelab/tree/main/backrest) - A web-accessible backup solution built on top of restic
  - [Kopia](https://github.com/bearded-papa/homelab/tree/main/kopia) - A fast and secure open-source backup/restore tool
- - [Dockge](https://github.com/bearded-papa/homelab/tree/main/dockge/)
- - [Filebrowser](https://github.com/bearded-papa/homelab/tree/main/filebrowser/)
- - [WhatsUpDocker](https://github.com/bearded-papa/homelab/tree/main/whatsupdocker)
- - [Scrutiny](https://github.com/bearded-papa/homelab/tree/main/scrutiny/)
+ - [Dockge](https://github.com/bearded-papa/homelab/tree/main/dockge/) - A fancy, easy-to-use and reactive self-hosted docker compose.yaml stack-oriented manager.
+ - [Filebrowser](https://github.com/bearded-papa/homelab/tree/main/filebrowser/) - Web File Browser
+ - [WhatsUpDocker](https://github.com/bearded-papa/homelab/tree/main/whatsupdocker) - Get notified when a new version of your Docker Container is available
+ - [Scrutiny](https://github.com/bearded-papa/homelab/tree/main/scrutiny/) - WebUI for smartd S.M.A.R.T monitoring
 
 #### Note Taking
- - [Flatnotes](https://github.com/bearded-papa/homelab/tree/main/flatnotes/)
+ - [Flatnotes](https://github.com/bearded-papa/homelab/tree/main/flatnotes/) - A self-hosted, database-less note-taking web app that utilises a flat folder of markdown files for storage
  - &#10060; [Bookstack](https://github.com/bearded-papa/homelab/tree/main/bookstack) - Wiki designed for creating beautiful documentation. Featuring a simple, but powerful WYSIWYG editor
 
 #### Misc
- - [Homepage](https://github.com/bearded-papa/homelab/tree/main/homepage/)
- - &#10060; [Webtrees](https://github.com/bearded-papa/homelab/tree/main/webtrees/)
+ - [Homepage](https://github.com/bearded-papa/homelab/tree/main/homepage/) - A modern, fully static, fast, secure fully proxied, highly customizable application dashboard
+ - &#10060; [Webtrees](https://github.com/bearded-papa/homelab/tree/main/webtrees/) - online collaborative genealogy
