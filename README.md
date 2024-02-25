@@ -19,7 +19,7 @@
 
 #### Gaming
 
- - [Minecraft (Bedrock)](https://github.com/bearded-papa/homelab/tree/main/minecraft-bedrock/)
+ - &#10060; [Minecraft (Bedrock)](https://github.com/bearded-papa/homelab/tree/main/minecraft-bedrock/)
 
 #### Tools
  - [Cloudflare](https://github.com/bearded-papa/homelab/tree/main/cloudflare/)
