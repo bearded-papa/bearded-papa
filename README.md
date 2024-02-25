@@ -10,7 +10,7 @@
  - [Sonarr](https://github.com/bearded-papa/homelab/tree/main/sonarr/) - Monitors multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them
  - [Radarr](https://github.com/bearded-papa/homelab/tree/main/radarr/) - A fork of Sonarr to work with movies
  - [Readarr](https://github.com/bearded-papa/homelab/tree/main/readarr) - Book Manager and Automation (Sonarr for Ebooks)
- - [Prowlarr](https://github.com/bearded-papa/homelab/tree/main/prowlarr/) - indexer manager/proxy that integrates seamlessly with Sonarr, Radarr, Lidarr, and Readarr offering complete management of your indexers
+ - [Prowlarr](https://github.com/bearded-papa/homelab/tree/main/prowlarr/) - indexer manager/proxy that integrates seamlessly with Sonarr, Radarr, Lidarr, and Readarr
  - [Requestrr](https://github.com/bearded-papa/homelab/tree/main/requestrr/) - A chatbot used to simplify using services like Sonarr/Radarr/Overseerr/Ombi via the use of chat!
  - [Deluge](https://github.com/bearded-papa/homelab/tree/main/deluge/) - a lightweight, cross-platform BitTorrent client
 
