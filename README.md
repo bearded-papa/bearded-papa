@@ -15,7 +15,7 @@
  - [Deluge](https://github.com/bearded-papa/homelab/tree/main/deluge/) - a lightweight, cross-platform BitTorrent client.
 
 #### Storage
- - [Immich](https://github.com/bearded-papa/homelab/tree/main/immich)
+ - [Immich](https://github.com/bearded-papa/homelab/tree/main/immich) - High performance self-hosted photo and video backup solution
 
 #### Gaming
 
