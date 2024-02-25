@@ -32,7 +32,7 @@
 
 #### Note Taking
  - [Flatnotes](https://github.com/bearded-papa/homelab/tree/main/flatnotes/)
- - &#10060; [Bookstack](https://github.com/bearded-papa/homelab/tree/main/bookstack)
+ - &#10060; [Bookstack](https://github.com/bearded-papa/homelab/tree/main/bookstack) - Wiki designed for creating beautiful documentation. Featuring a simple, but powerful WYSIWYG editor
 
 #### Misc
  - [Homepage](https://github.com/bearded-papa/homelab/tree/main/homepage/)
