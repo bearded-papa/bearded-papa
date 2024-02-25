@@ -22,7 +22,7 @@
 
 #### Tools
  - [Cloudflare](https://github.com/bearded-papa/homelab/tree/main/cloudflare/)
- - [Backrset](https://github.com/bearded-papa/homelab/tree/main/backrest) - A web-accessible backup solution built on top of restic.
+ - [Backrest](https://github.com/bearded-papa/homelab/tree/main/backrest) - A web-accessible backup solution built on top of restic.
  - [Kopia](https://github.com/bearded-papa/homelab/tree/main/kopia) - A fast and secure open-source backup/restore tool
  - [Dockge](https://github.com/bearded-papa/homelab/tree/main/dockge/)
  - [Filebrowser](https://github.com/bearded-papa/homelab/tree/main/filebrowser/)
