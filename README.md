@@ -35,4 +35,4 @@
 
 #### Misc
  - [Homepage](https://github.com/bearded-papa/homelab/tree/main/homepage/)
- - [Webtrees](https://github.com/bearded-papa/homelab/tree/main/webtrees/)
+ - &#10060; [Webtrees](https://github.com/bearded-papa/homelab/tree/main/webtrees/)
