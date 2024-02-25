@@ -32,6 +32,7 @@
 
 #### Note Taking
  - [Flatnotes](https://github.com/bearded-papa/homelab/tree/main/flatnotes/)
+ - &#10060; [Bookstack](https://github.com/bearded-papa/homelab/tree/main/bookstack)
 
 #### Misc
  - [Homepage](https://github.com/bearded-papa/homelab/tree/main/homepage/)
