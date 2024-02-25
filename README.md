@@ -6,6 +6,7 @@
 
 #### Media Server
  - [Plex](https://github.com/bearded-papa/homelab/tree/main/plex/)
+ - [Jellyfin](https://github.com/bearded-papa/homelab/tree/main/jellyfin)
  - [Sonarr](https://github.com/bearded-papa/homelab/tree/main/sonarr/)
  - [Radarr](https://github.com/bearded-papa/homelab/tree/main/radarr/)
  - [Readarr](https://github.com/bearded-papa/homelab/tree/main/readarr)
