@@ -30,6 +30,9 @@
  - &#10060; [WhatsUpDocker](https://github.com/bearded-papa/homelab/tree/main/whatsupdocker) - Get notified when a new version of your Docker Container is available (Removed as was using to many pull requests)
  - [Scrutiny](https://github.com/bearded-papa/homelab/tree/main/scrutiny/) - WebUI for smartd S.M.A.R.T monitoring
 
+#### Household
+- [Wallos](https://github.com/bearded-papa/homelab/tree/main/wallos)
+
 #### Note Taking
  - [Flatnotes](https://github.com/bearded-papa/homelab/tree/main/flatnotes/) - A self-hosted, database-less note-taking web app that utilises a flat folder of markdown files for storage
  - &#10060; [Bookstack](https://github.com/bearded-papa/homelab/tree/main/bookstack) - Wiki designed for creating beautiful documentation. Featuring a simple, but powerful WYSIWYG editor
