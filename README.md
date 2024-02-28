@@ -29,7 +29,7 @@
  - [Dockge](https://github.com/bearded-papa/homelab/tree/main/dockge/) - A fancy, easy-to-use and reactive self-hosted docker compose.yaml stack-oriented manager
  - &#10060; [WhatsUpDocker](https://github.com/bearded-papa/homelab/tree/main/whatsupdocker) - Get notified when a new version of your Docker Container is available (Removed as was using to many pull requests)
  - [Scrutiny](https://github.com/bearded-papa/homelab/tree/main/scrutiny/) - WebUI for smartd S.M.A.R.T monitoring
- - &#10060; [Stirlin-PDF](https://github.com/bearded-papa/homelab/tree/main/stirling-pdf)
+ - &#10060; [Stirling-PDF](https://github.com/bearded-papa/homelab/tree/main/stirling-pdf)
 
 #### Household
 - [Wallos](https://github.com/bearded-papa/homelab/tree/main/wallos)
