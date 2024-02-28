@@ -1,8 +1,10 @@
 #  Brain Dump
 
-## - [Useful Information - Personal Wiki](https://github.com/bearded-papa/useful-information)
+## [Things To Do](https://github.com/bearded-papa/Things-To-Do)
 
-## - [Home Lab Setup](https://github.com/bearded-papa/homelab/)
+## [Useful Information - Personal Wiki](https://github.com/bearded-papa/useful-information)
+
+## [Home Lab Setup](https://github.com/bearded-papa/homelab/)
 
 #### Media Server
  - [Plex](https://github.com/bearded-papa/homelab/tree/main/plex/) - Media Server
