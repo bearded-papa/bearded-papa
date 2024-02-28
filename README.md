@@ -17,13 +17,9 @@
 #### Storage
  - [Immich](https://github.com/bearded-papa/homelab/tree/main/immich) - High performance self-hosted photo and video backup solution
 
-#### Gaming
-
- - &#10060; [Minecraft (Bedrock)](https://github.com/bearded-papa/homelab/tree/main/minecraft-bedrock/)
-
 #### Remote
 - [Filebrowser](https://github.com/bearded-papa/homelab/tree/main/filebrowser/) - Web File Browser
-- [Code Server](https://github.com/bearded-papa/homelab/tree/main/codeserver)
+- [Code Server](https://github.com/bearded-papa/homelab/tree/main/code-server)
 - &#10060; [Guacamole](https://github.com/bearded-papa/homelab/tree/main/guacamole)
 
 #### Tools
@@ -37,6 +33,10 @@
 #### Note Taking
  - [Flatnotes](https://github.com/bearded-papa/homelab/tree/main/flatnotes/) - A self-hosted, database-less note-taking web app that utilises a flat folder of markdown files for storage
  - &#10060; [Bookstack](https://github.com/bearded-papa/homelab/tree/main/bookstack) - Wiki designed for creating beautiful documentation. Featuring a simple, but powerful WYSIWYG editor
+
+#### Gaming
+
+ - &#10060; [Minecraft (Bedrock)](https://github.com/bearded-papa/homelab/tree/main/minecraft-bedrock/)
 
 #### Misc
  - [Homepage](https://github.com/bearded-papa/homelab/tree/main/homepage/) - A modern, fully static, fast, secure fully proxied, highly customizable application dashboard
