@@ -21,12 +21,16 @@
 
  - &#10060; [Minecraft (Bedrock)](https://github.com/bearded-papa/homelab/tree/main/minecraft-bedrock/)
 
+#### Remote
+- [Filebrowser](https://github.com/bearded-papa/homelab/tree/main/filebrowser/) - Web File Browser
+- [Code Server](https://github.com/bearded-papa/homelab/tree/main/codeserver)
+- &#10060; [Guacamole](https://github.com/bearded-papa/homelab/tree/main/guacamole)
+
 #### Tools
  - [Cloudflare](https://github.com/bearded-papa/homelab/tree/main/cloudflare/)
  - [Backrest](https://github.com/bearded-papa/homelab/tree/main/backrest) - A web-accessible backup solution built on top of restic
  - [Kopia](https://github.com/bearded-papa/homelab/tree/main/kopia) - A fast and secure open-source backup/restore tool
- - [Dockge](https://github.com/bearded-papa/homelab/tree/main/dockge/) - A fancy, easy-to-use and reactive self-hosted docker compose.yaml stack-oriented manager.
- - [Filebrowser](https://github.com/bearded-papa/homelab/tree/main/filebrowser/) - Web File Browser
+ - [Dockge](https://github.com/bearded-papa/homelab/tree/main/dockge/) - A fancy, easy-to-use and reactive self-hosted docker compose.yaml stack-oriented manager
  - &#10060; [WhatsUpDocker](https://github.com/bearded-papa/homelab/tree/main/whatsupdocker) - Get notified when a new version of your Docker Container is available (Removed as was using to many pull requests)
  - [Scrutiny](https://github.com/bearded-papa/homelab/tree/main/scrutiny/) - WebUI for smartd S.M.A.R.T monitoring
 
