@@ -7,7 +7,7 @@
 - ### [Useful Information - Personal Wiki](https://github.com/bearded-papa/useful-information)
 -----
 
-### [Home Lab Setup](https://github.com/bearded-papa/homelab/)
+- ### [Home Lab Setup](https://github.com/bearded-papa/homelab/)
 
 #### Media Server
  - [Plex](https://github.com/bearded-papa/homelab/tree/main/plex/) - Media Server
@@ -50,3 +50,5 @@
 #### Misc
  - [Homepage](https://github.com/bearded-papa/homelab/tree/main/homepage/) - A modern, fully static, fast, secure fully proxied, highly customizable application dashboard
  - &#10060; [Webtrees](https://github.com/bearded-papa/homelab/tree/main/webtrees/) - online collaborative genealogy
+
+-----
