@@ -11,13 +11,13 @@
 
 #### Media Server
  - [Plex](https://github.com/bearded-papa/homelab/tree/main/plex/) - Media Server
- - [Jellyfin](https://github.com/bearded-papa/homelab/tree/main/jellyfin) - Media Server
  - [Sonarr](https://github.com/bearded-papa/homelab/tree/main/sonarr/) - Monitors multiple RSS feeds for new episodes of your favorite shows
  - [Radarr](https://github.com/bearded-papa/homelab/tree/main/radarr/) - A fork of Sonarr to work with movies
  - [Readarr](https://github.com/bearded-papa/homelab/tree/main/readarr) - Book Manager and Automation (Sonarr for Ebooks)
  - [Prowlarr](https://github.com/bearded-papa/homelab/tree/main/prowlarr/) - indexer manager/proxy that integrates seamlessly with Sonarr, Radarr, Lidarr, and Readarr
  - [Requestrr](https://github.com/bearded-papa/homelab/tree/main/requestrr/) - A chatbot used to simplify using services like Sonarr/Radarr/Overseerr/Ombi via the use of chat!
  - [Deluge](https://github.com/bearded-papa/homelab/tree/main/deluge/) - a lightweight, cross-platform BitTorrent client
+ - &#10060; [Jellyfin](https://github.com/bearded-papa/homelab/tree/main/jellyfin) - Media Server
 
 #### Storage
  - &#10060; [Immich](https://github.com/bearded-papa/homelab/tree/main/immich) - High performance self-hosted photo and video backup solution
