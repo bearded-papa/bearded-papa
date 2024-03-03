@@ -32,7 +32,7 @@
  - [Backrest](https://github.com/bearded-papa/homelab/tree/main/backrest) - A web-accessible backup solution built on top of restic
  - [Kopia](https://github.com/bearded-papa/homelab/tree/main/kopia) - A fast and secure open-source backup/restore tool
  - [Dockge](https://github.com/bearded-papa/homelab/tree/main/dockge/) - A fancy, easy-to-use and reactive self-hosted docker compose.yaml stack-oriented manager
- - [Scrutiny](https://github.com/bearded-papa/homelab/tree/main/scrutiny/) - WebUI for smartd S.M.A.R.T monitoring
+ - &#10060; [Scrutiny](https://github.com/bearded-papa/homelab/tree/main/scrutiny/) - WebUI for smartd S.M.A.R.T monitoring
  - &#10060; [WhatsUpDocker](https://github.com/bearded-papa/homelab/tree/main/whatsupdocker) - Get notified when a new version of your Docker Container is available
  - &#10060; [Stirling-PDF](https://github.com/bearded-papa/homelab/tree/main/stirling-pdf)
 
