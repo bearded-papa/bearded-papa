@@ -25,7 +25,7 @@
 #### Remote
 - [Filebrowser](https://github.com/bearded-papa/homelab/tree/main/filebrowser/) - Web File Browser
 - [Code Server](https://github.com/bearded-papa/homelab/tree/main/code-server)
-- &#10060; [Guacamole](https://github.com/bearded-papa/homelab/tree/main/guacamole)
+- [Guacamole](https://github.com/bearded-papa/homelab/tree/main/guacamole)
 
 #### Tools
  - [Cloudflare](https://github.com/bearded-papa/homelab/tree/main/cloudflare/)
