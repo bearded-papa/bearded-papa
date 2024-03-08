@@ -20,7 +20,7 @@
  - &#10060; [Jellyfin](https://github.com/bearded-papa/homelab/tree/main/jellyfin) - Media Server
 
 #### Storage
- - &#10060; [Immich](https://github.com/bearded-papa/homelab/tree/main/immich) - High performance self-hosted photo and video backup solution
+ - [Immich](https://github.com/bearded-papa/homelab/tree/main/immich) - High performance self-hosted photo and video backup solution
 
 #### Remote
 - [Filebrowser](https://github.com/bearded-papa/homelab/tree/main/filebrowser/) - Web File Browser
