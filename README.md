@@ -37,8 +37,8 @@
  - &#10060; [Stirling-PDF](https://github.com/bearded-papa/homelab/tree/main/stirling-pdf)
 
 #### Household
-- [Wallos](https://github.com/bearded-papa/homelab/tree/main/wallos)
-- [Firefly iii](https://github.com/bearded-papa/homelab/tree/main/fireflyiii)
+- &#10060; [Wallos](https://github.com/bearded-papa/homelab/tree/main/wallos)
+- &#10060; [Firefly iii](https://github.com/bearded-papa/homelab/tree/main/fireflyiii)
 
 #### Note Taking
  - [Flatnotes](https://github.com/bearded-papa/homelab/tree/main/flatnotes/) - A self-hosted, database-less note-taking web app that utilises a flat folder of markdown files for storage
