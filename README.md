@@ -31,6 +31,7 @@
  - [Cloudflare](https://github.com/bearded-papa/homelab/tree/main/cloudflare/)
  - [Dockge](https://github.com/bearded-papa/homelab/tree/main/dockge/) - A fancy, easy-to-use and reactive self-hosted docker compose.yaml stack-oriented manager
  - [ChangeDetection.io](https://github.com/bearded-papa/homelab/tree/main/changedetection.io)
+ - [Linkwarden](https://github.com/bearded-papa/homelab/tree/main/linkwarden)
  - [Backrest](https://github.com/bearded-papa/homelab/tree/main/backrest) - A web-accessible backup solution built on top of restic
  - &#10060; [Kopia](https://github.com/bearded-papa/homelab/tree/main/kopia) - A fast and secure open-source backup/restore tool
  - &#10060; [Scrutiny](https://github.com/bearded-papa/homelab/tree/main/scrutiny/) - WebUI for smartd S.M.A.R.T monitoring
