@@ -28,6 +28,7 @@
 - [Guacamole](https://gitea.homems.net/paulo/homelab/src/branch/main/guacamole)
 
 #### Tools
+ - [Nginx Proxy Manager](https://gitea.homems.net/paulo/homelab/src/branch/main/nginx_proxy_manager)
  - [Cloudflare](https://gitea.homems.net/paulo/homelab/src/branch/main/cloudflare/)
  - [Dockge](https://gitea.homems.net/paulo/homelab/src/branch/main/dockge/) - A fancy, easy-to-use and reactive self-hosted docker compose.yaml stack-oriented manager
  - [ChangeDetection.io](https://gitea.homems.net/paulo/homelab/src/branch/main/changedetection.io)
