@@ -28,11 +28,11 @@
 - [Guacamole](https://gitea.homems.net/paulo/homelab/src/branch/main/guacamole)
 
 #### Tools
- - [Nginx Proxy Manager](https://gitea.homems.net/paulo/homelab/src/branch/main/nginx_proxy_manager)
  - [Cloudflare](https://gitea.homems.net/paulo/homelab/src/branch/main/cloudflare/)
  - [Dockge](https://gitea.homems.net/paulo/homelab/src/branch/main/dockge/) - A fancy, easy-to-use and reactive self-hosted docker compose.yaml stack-oriented manager
  - [ChangeDetection.io](https://gitea.homems.net/paulo/homelab/src/branch/main/changedetection.io)
  - [Backrest](https://gitea.homems.net/paulo/homelab/src/branch/main/backrest) - A web-accessible backup solution built on top of restic
+ - &#10060; [Nginx Proxy Manager](https://gitea.homems.net/paulo/homelab/src/branch/main/nginx_proxy_manager)
  - &#10060; [Kopia](https://gitea.homems.net/paulo/homelab/src/branch/main/kopia) - A fast and secure open-source backup/restore tool
  - &#10060; [Scrutiny](https://gitea.homems.net/paulo/homelab/src/branch/main/scrutiny/) - WebUI for smartd S.M.A.R.T monitoring
  - &#10060; [WhatsUpDocker](https://gitea.homems.net/paulo/homelab/src/branch/main/whatsupdocker) - Get notified when a new version of your Docker Container is available
