@@ -46,10 +46,11 @@
 - &#10060; [Firefly iii](https://gitea.homems.net/paulo/homelab/src/branch/main/fireflyiii)
 
 #### Knowledge
- - [Linkwarden](https://gitea.homems.net/paulo/homelab/src/branch/main/linkwarden)
  - [Linkding](https://gitea.homems.net/paulo/homelab/src/branch/main/linkding)
+ - [Vikunja](https://gitea.homems.net/paulo/homelab/src/branch/main/vikunja)
  - [Gitea](https://gitea.homems.net/paulo/homelab/src/branch/main/gitea)
  - [Flatnotes](https://gitea.homems.net/paulo/homelab/src/branch/main/flatnotes/) - A self-hosted, database-less note-taking web app that utilises a flat folder of markdown files for storage
+ - &#10060; [Linkwarden](https://gitea.homems.net/paulo/homelab/src/branch/main/linkwarden)
  - &#10060; [Bookstack](https://gitea.homems.net/paulo/homelab/src/branch/main/bookstack) - Wiki designed for creating beautiful documentation. Featuring a simple, but powerful WYSIWYG editor
 
 #### Gaming
