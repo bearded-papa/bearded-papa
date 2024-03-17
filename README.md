@@ -1,9 +1,6 @@
 #  Brain Dump
 -----
 
-- ### [Things To Do](https://gitea.homems.net/paulo/Things-To-Do)
------
-
 - ### [Useful Information - Personal Wiki](https://gitea.homems.net/paulo/useful-information)
 -----
 
