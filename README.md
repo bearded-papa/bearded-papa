@@ -46,6 +46,7 @@
 #### Knowledge
  - [Linkding](https://gitea.homems.net/paulo/homelab/src/branch/main/linkding)
  - [Vikunja](https://gitea.homems.net/paulo/homelab/src/branch/main/vikunja)
+ - [Forgejo](https://forgejo.homems.net/paulo/homelab/src/branch/main/forgejo)
  - [Gitea](https://gitea.homems.net/paulo/homelab/src/branch/main/gitea)
  - [Flatnotes](https://gitea.homems.net/paulo/homelab/src/branch/main/flatnotes/) - A self-hosted, database-less note-taking web app that utilises a flat folder of markdown files for storage
  - &#10060; [Linkwarden](https://gitea.homems.net/paulo/homelab/src/branch/main/linkwarden)
