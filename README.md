@@ -14,10 +14,10 @@
  - [Prowlarr](https://gitea.homems.net/paulo/homelab/src/branch/main/prowlarr/) - indexer manager/proxy that integrates seamlessly with Sonarr, Radarr, Lidarr, and Readarr
  - [Requestrr](https://gitea.homems.net/paulo/homelab/src/branch/main/requestrr/) - A chatbot used to simplify using services like Sonarr/Radarr/Overseerr/Ombi via the use of chat!
  - [Overseerr](https://gitea.homems.net/paulo/homelab/src/branch/main/overseerr)
- - [Bazarr](https://forgejo.homems.net/paulo/homelab/src/branch/main/bazarr)
  - [Tautulli](https://forgejo.homems.net/paulo/homelab/src/branch/main/tautulli)
  - [TubeArchivist](https://gitea.homems.net/paulo/homelab/src/branch/main/tubearchivist)
  - [Deluge](https://gitea.homems.net/paulo/homelab/src/branch/main/deluge/) - a lightweight, cross-platform BitTorrent client
+ - &#10060; [Bazarr](https://forgejo.homems.net/paulo/homelab/src/branch/main/bazarr)
  - &#10060; [Jellyfin](https://gitea.homems.net/paulo/homelab/src/branch/main/jellyfin) - Media Server
 
 #### Storage
