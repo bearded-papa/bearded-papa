@@ -2,7 +2,7 @@
 -----
 
 - ### Home Lab Setup (Previous)
-    - #### [Current Setup](https://forgejo.homems.net/paulo/homelab/)
+    - #### [Current Setup](https://forgejo.homems.net/paulo)
 
 #### Media Server
 
