@@ -4,7 +4,8 @@
 - ### [Useful Information - Personal Wiki](https://forgejo.homems.net/paulo/useful-information)
 -----
 
-- ### [Home Lab Setup](https://forgejo.homems.net/paulo/homelab/)
+- ### [Home Lab Setup (Current)](https://forgejo.homems.net/paulo/homelab/) 
+    - #### [Previous Setups](https://forgejo.homems.net/paulo/homelab/previous)
 
 #### Media Server
  - [Plex](https://forgejo.homems.net/paulo/homelab/src/branch/main/plex/) - Media Server
