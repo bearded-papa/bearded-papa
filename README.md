@@ -5,7 +5,7 @@
 -----
 
 - ### Home Lab Setup (Current) 
-    - #### [Previous Setups](https://forgejo.homems.net/paulo/homelab/previous)
+    - #### [Previous Setup](https://forgejo.homems.net/paulo/homelab/previous)
 
 #### Media Server
  - [Plex](https://forgejo.homems.net/paulo/homelab/src/branch/main/plex/) - Media Server
