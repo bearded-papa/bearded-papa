@@ -38,10 +38,10 @@
 - 
 
 #### Knowledge
+ - [Paperless-ngx](https://forgejo.homems.net/paulo/homelab/src/branch/main/paperless-ngx)
  - [Linkding](https://forgejo.homems.net/paulo/homelab/src/branch/main/linkding)
  - [Vikunja](https://forgejo.homems.net/paulo/homelab/src/branch/main/vikunja)
  - [Forgejo](https://forgejo.homems.net/paulo/homelab/src/branch/main/forgejo)
- - [Gitea](https://forgejo.homems.net/paulo/homelab/src/branch/main/gitea)
  - [Flatnotes](https://forgejo.homems.net/paulo/homelab/src/branch/main/flatnotes/) - A self-hosted, database-less note-taking web app that utilises a flat folder of markdown files for storage
 
 #### Gaming
