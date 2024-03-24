@@ -35,6 +35,7 @@
 
  - &#10060; [Linkwarden](https://forgejo.homems.net/paulo/homelab/src/branch/main/linkwarden)
  - &#10060; [Bookstack](https://forgejo.homems.net/paulo/homelab/src/branch/main/bookstack) - Wiki designed for creating beautiful documentation. Featuring a simple, but powerful WYSIWYG editor
+ - &#10060; [Gitea](https://forgejo.homems.net/paulo/homelab/src/branch/main/gitea)
 
 #### Gaming
 
