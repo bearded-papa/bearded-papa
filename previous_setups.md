@@ -20,7 +20,6 @@
 #### Tools
 
  - &#10060; [ChangeDetection.io](https://forgejo.homems.net/paulo/homelab/src/branch/main/changedetection.io)
- - &#10060; [Nginx Proxy Manager](https://forgejo.homems.net/paulo/homelab/src/branch/main/nginx_proxy_manager)
  - &#10060; [Kopia](https://forgejo.homems.net/paulo/homelab/src/branch/main/kopia) - A fast and secure open-source backup/restore tool
  - &#10060; [Scrutiny](https://forgejo.homems.net/paulo/homelab/src/branch/main/scrutiny/) - WebUI for smartd S.M.A.R.T monitoring
  - &#10060; [WhatsUpDocker](https://forgejo.homems.net/paulo/homelab/src/branch/main/whatsupdocker) - Get notified when a new version of your Docker Container is available
