@@ -30,6 +30,7 @@
 #### Tools
  - [Cloudflare](https://forgejo.homems.net/paulo/homelab/src/branch/main/cloudflare/)
  - [Cloudflare-DDNS](https://forgejo.homems.net/paulo/homelab/src/branch/main/cloudflare-ddns)
+ - [Glances](https://forgejo.homems.net/paulo/homelab/src/branch/main/glances)
  - [DashDot](https://forgejo.homems.net/paulo/homelab/src/branch/main/dashdot)
  - [Dockge](https://forgejo.homems.net/paulo/homelab/src/branch/main/dockge/) - A fancy, easy-to-use and reactive self-hosted docker compose.yaml stack-oriented manager
  - [Backrest](https://forgejo.homems.net/paulo/homelab/src/branch/main/backrest) - A web-accessible backup solution built on top of restic
