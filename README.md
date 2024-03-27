@@ -15,7 +15,6 @@
  - [Prowlarr](https://forgejo.homems.net/paulo/homelab/src/branch/main/prowlarr/) - indexer manager/proxy that integrates seamlessly with Sonarr, Radarr, Lidarr, and Readarr
  - [Requestrr](https://forgejo.homems.net/paulo/homelab/src/branch/main/requestrr/) - A chatbot used to simplify using services like Sonarr/Radarr/Overseerr/Ombi via the use of chat!
  - [Overseerr](https://forgejo.homems.net/paulo/homelab/src/branch/main/overseerr)
- - [Tautulli](https://forgejo.homems.net/paulo/homelab/src/branch/main/tautulli)
  - [TubeArchivist](https://forgejo.homems.net/paulo/homelab/src/branch/main/tubearchivist)
  - [Deluge](https://forgejo.homems.net/paulo/homelab/src/branch/main/deluge/) - a lightweight, cross-platform BitTorrent client
 
