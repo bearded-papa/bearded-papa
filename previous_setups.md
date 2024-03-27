@@ -8,6 +8,7 @@
 
  - &#10060; [Bazarr](https://forgejo.homems.net/paulo/homelab/src/branch/main/bazarr)
  - &#10060; [Jellyfin](https://forgejo.homems.net/paulo/homelab/src/branch/main/jellyfin) - Media Server
+ - &#10060; [Tautulli](https://forgejo.homems.net/paulo/homelab/src/branch/main/tautulli)
 
 #### Storage
  
