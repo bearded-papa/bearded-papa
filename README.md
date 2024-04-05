@@ -42,6 +42,7 @@
  - [Linkding](https://forgejo.homems.net/paulo/homelab/src/branch/main/linkding)
  - [Vikunja](https://forgejo.homems.net/paulo/homelab/src/branch/main/vikunja)
  - [Forgejo](https://forgejo.homems.net/paulo/homelab/src/branch/main/forgejo)
+ - [Readeck](https://forgejo.homems.net/paulo/homelab/src/branch/main/readeck)
 
 
 #### Gaming
