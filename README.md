@@ -24,6 +24,9 @@
 - [Code Server](https://forgejo.homems.net/paulo/homelab/src/branch/main/code-server)
 - [Guacamole](https://forgejo.homems.net/paulo/homelab/src/branch/main/guacamole)
 
+#### Ad Blocking
+- [AdGuard Home](https://forgejo.homems.net/paulo/homelab/src/branch/main/adguard-home)
+
 #### Tools
  - [Cloudflare](https://forgejo.homems.net/paulo/homelab/src/branch/main/cloudflare/)
  - [Cloudflare-DDNS](https://forgejo.homems.net/paulo/homelab/src/branch/main/cloudflare-ddns)
