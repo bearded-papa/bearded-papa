@@ -10,6 +10,7 @@
  - &#10060; [Jellyfin](https://forgejo.homems.net/paulo/homelab/src/branch/main/jellyfin) - Media Server
  - &#10060; [Tautulli](https://forgejo.homems.net/paulo/homelab/src/branch/main/tautulli)
  - &#10060; [Overseerr](https://forgejo.homems.net/paulo/homelab/src/branch/main/overseerr)
+ - &#10060; [TubeArchivist](https://forgejo.homems.net/paulo/homelab/src/branch/main/tubearchivist)
 
 #### Storage
  
