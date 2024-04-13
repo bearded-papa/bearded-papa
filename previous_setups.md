@@ -12,13 +12,8 @@
  - &#10060; [Overseerr](https://forgejo.homems.net/paulo/homelab/src/branch/main/overseerr)
  - &#10060; [TubeArchivist](https://forgejo.homems.net/paulo/homelab/src/branch/main/tubearchivist)
 
-#### Storage
- 
-- 
-
-#### Remote
-
-- 
+#### Ad Blocking
+ - &#10060; [AdGuard Home](https://https://forgejo.pauloakes.uk/paulo/homelab/src/branch/main/adguard-home)
 
 #### Tools
 
