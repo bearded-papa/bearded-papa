@@ -8,3 +8,7 @@
 ## [Racknerd 2.5gb](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fracknerd_2.5gb)
 
 ## [Racknerd - Pangolin](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fracknerd_pangolin)
+
+## [Komodo](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fkomodo)
+
+## [Common](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fcommon)
