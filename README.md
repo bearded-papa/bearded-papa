@@ -1,6 +1,6 @@
 # Current Setup
 
-All the following stacks are setup using the GitHub repo in Komodo
+All the following stacks are setup using the GitHub repo in [Komodo](https://komo.do/)
 
 ### [Pi 4](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fpi4)
 - [Backrest](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fpi4/backrest)
@@ -26,9 +26,24 @@ All the following stacks are setup using the GitHub repo in Komodo
 - [Portracker](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fpi5/portracker)
 
 ### [Racknerd 2.5gb](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fracknerd_2.5gb)
+- [Beszel Agent](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fracknerd_2.5gb/beszel_agent)
+- [Bytestash](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fracknerd_2.5gb/bytestash)
+- [Dashy](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fracknerd_2.5gb/dashy)
+- [Dockge](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fracknerd_2.5gb/dockge)
+- [Dozzle Agent](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fracknerd_2.5gb/dozzle_agent)
+- [Gotify](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fracknerd_2.5gb/gotify)
+- [Gotify Alerter](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fracknerd_2.5gb/gotify_alerter)
+- [Hedgedoc](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fracknerd_2.5gb/hedgedoc)
+- [Immich Machine Learning](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fracknerd_2.5gb/immich_machine_learning)
+- [Linkwarden](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fracknerd_2.5gb/linkwarden)
+- [Mealie](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fracknerd_2.5gb/mealie)
+- [Mini QR](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fracknerd_2.5gb/mini_qr)
+- [Newt](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fracknerd_2.5gb/newt)
+- [Portracker](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fracknerd_2.5gb/portracker)
+- [Vikunja](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fracknerd_2.5gb/vikunja)
 
 ### [Racknerd - Pangolin](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fracknerd_pangolin)
-- [Beszel Agent](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fracknerd_pangolin/deszel_agent)
+- [Beszel Agent](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fracknerd_pangolin/beszel_agent)
 - [Dockge](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fracknerd_pangolin/dockge)
 - [Dozzle Agent](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fracknerd_pangolin/dozzle_agent)
 - [Newt](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fracknerd_pangolin/newt)
