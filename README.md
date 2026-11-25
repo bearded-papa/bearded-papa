@@ -42,7 +42,6 @@
 | App | What it does | Compose |
 |---|---|---|
 | [Mealie](https://mealie.io/) | Recipes | [mealie](https://github.com/bearded-papa/server-blueprint/tree/main/stacks/mealie) |
-| [FreshRSS](https://freshrss.org/) | RSS reader | — |
 | [GeoPulse](https://geopulse.pauloakes.uk) | Location history (Life360 replacement) | [geopulse](https://github.com/bearded-papa/server-blueprint/tree/main/stacks/geopulse) |
 | Bus tracker | Live bus map using Bus Open Data Service | [bus-tracker](https://github.com/bearded-papa/server-blueprint/tree/main/stacks/bus-tracker) |
 
