@@ -1,38 +1,85 @@
-# Paul's homelab
+<div align="center">
 
-A small, hands-on homelab: one mini PC doing the heavy lifting, two Raspberry Pis, and a couple of cheap VPSes. Home is behind CGNAT, so everything public goes out through a tunnel rather than port-forwards.
+# 🏠 Paul's Homelab
 
-## Hardware
+*A small, hands-on self-hosted setup: one mini PC, two Raspberry Pis, two VPSes.*
 
-| Machine | What it is | Job |
+[Hardware](#-hardware) · [Services](#-services) · [Infrastructure](#-infrastructure) · [Docs](#-docs-and-code) · [History](#-history)
+
+</div>
+
+> Home is behind CGNAT, so everything public goes out through a tunnel (Pangolin), never port-forwards. Most links below are login-gated.
+
+## 🖥️ Hardware
+
+| Machine | Spec | Role |
 |---|---|---|
-| **dell-server** | Dell OptiPlex 3060 Micro, i5-8500T, 8 GB RAM, Ubuntu | Main Docker host: media, photos, files, most apps. Exports its drives over NFS |
-| **Drives** | 500 GB SSD (appdata), two 4 TB USB drives (media, data/backups) | Storage behind the Dell |
-| **pi4** | Raspberry Pi 4, 8 GB, Raspberry Pi OS Lite | Backups (Borg UI), file manager, web terminal, git, this homelab's handbook |
-| **pi5-test** | Raspberry Pi 5 | Spare test server: try things here before they go near production |
-| **VPS x2** | RackNerd VPSes, Debian 13 | Public edge (Pangolin) and a few always-on services |
+| **dell-server** | Dell OptiPlex 3060 Micro, i5-8500T, 8 GB, Ubuntu | Main Docker host; exports its drives over NFS |
+| **Drives** | 500 GB SSD + two 4 TB USB drives | App data, media, backups |
+| **pi4** | Raspberry Pi 4, 8 GB | Backups, files, web terminal, git, ntfy, the Handbook |
+| **pi5-test** | Raspberry Pi 5 | Test server: try it here first |
+| **VPS x2** | RackNerd, Debian 13 | Public edge (Pangolin) and always-on services |
 
-## How it fits together
+## 📦 Services
 
-- **Public access:** [Pangolin](https://github.com/fosrl/pangolin) on a VPS, with tunnel clients at home. SSO in front of most things, [Pocket ID](https://pocket-id.org/) (passkeys) as the login provider.
-- **Private access:** Tailscale between all the machines, with Tailnet Lock on.
-- **Deploys:** [Arcane](https://github.com/getarcaneapp/arcane) with Git Sync from a private repo of Docker Compose stacks (one folder per stack, bind mounts only, memory limits on the heavy containers).
-- **Storage:** the Pis mount the Dell's drives over NFS; app data lives on the Dell.
-- **Backups:** Borg (through Borg UI) to repos on the Dell's drives, with containers that use SQLite stopped around the nightly run. Off-site copies are the next job.
-- **Monitoring:** Beszel for the hosts, UptimeRobot watching the VPSes from outside, alerts to Gotify.
-- **Docs:** I keep an interactive "Homelab Handbook" (fix-it guides, checklists, rebuild steps) hosted on the Pi 4 and written with Claude.
+### 🎬 Media
+| App | What it does |
+|---|---|
+| [Jellyfin](https://jellyfin.org/) | Media server |
+| [Sonarr](https://sonarr.tv/) · [Radarr](https://radarr.video/) · [Prowlarr](https://prowlarr.com/) | TV, movies and indexers |
+| [qBittorrent](https://www.qbittorrent.org/) | Downloads |
+| [Seerr](https://github.com/seerr-team/seerr) | Requests for family and friends |
+| [Cleanuparr](https://github.com/Cleanuparr/Cleanuparr) · [Reclaimerr](https://github.com/jessielw/reclaimerr) | Queue and library tidying |
 
-## What I run
+### 📷 Files and photos
+| App | What it does |
+|---|---|
+| [Immich](https://immich.app/) ([live](https://immich.pauloakes.uk)) | Photos |
+| [OpenCloud](https://opencloud.eu/) | File sync and sharing |
+| [nextExplorer](https://nextexplorer.pauloakes.uk) | Web file manager |
 
-- **Media:** Jellyfin, Sonarr, Radarr, Prowlarr, qBittorrent, Seerr, Cleanuparr, Reclaimerr
-- **Photos and files:** Immich, OpenCloud, nextExplorer
-- **Everyday apps:** Mealie, FreshRSS, GeoPulse (location history, replacing Life360), a live bus tracker
-- **Dashboards and ops:** Homepage, Arcane, Beszel, Scrutiny (SMART), Gotify, ntfy, Borg UI, Termix
-- **Code:** Forgejo (moving over from Gitea)
-- **Edge and identity:** Pangolin, Pocket ID, Tailscale
+### 🧰 Everyday
+| App | What it does |
+|---|---|
+| [Mealie](https://mealie.io/) | Recipes |
+| [FreshRSS](https://freshrss.org/) | RSS reader |
+| [GeoPulse](https://geopulse.pauloakes.uk) | Location history (Life360 replacement) |
+| Bus tracker | Live bus map using Bus Open Data Service |
 
-Things I tried and dropped are in [previous_setups.md](previous_setups.md).
+### 🛠️ Ops
+| App | What it does |
+|---|---|
+| [Homepage](https://gethomepage.dev/) | The dashboard this page is modelled on |
+| [Arcane](https://getarcane.app/) | Docker deployments from Git |
+| [Beszel](https://beszel.pauloakes.uk) | Host monitoring |
+| [Scrutiny](https://scrutiny.pauloakes.uk) | Drive SMART health |
+| [Borg UI](https://borg-ui.pauloakes.uk) | Backups |
+| [Gotify](https://gotify.pauloakes.uk) · [ntfy](https://ntfy.pauloakes.uk) | Notifications |
+| [Termix](https://terminal.pauloakes.uk) | Web SSH |
 
-## Before this
+### 🔐 Edge and identity
+| App | What it does |
+|---|---|
+| [Pangolin](https://github.com/fosrl/pangolin) | Tunnelled public access with SSO |
+| [Pocket ID](https://id.pauloakes.uk) | Passkey login (OIDC) |
+| [Tailscale](https://tailscale.com/) | Private network, Tailnet Lock on |
 
-Earlier versions of this setup ran on [Komodo](https://komo.do/) (with Dockge before that) across the same Pis and VPSes. That README is kept in [README_OLD.md](README_OLD.md) for the history. The move to Arcane, Pangolin and Pocket ID came in autumn 2026, along with a rebuild of both VPSes.
+## 🔗 Infrastructure
+
+- **Deploys:** Arcane Git Sync from a private repo of Compose stacks. Bind mounts only, memory limits on heavy containers.
+- **Storage:** Pis mount the Dell's drives over NFS.
+- **Backups:** Borg, with SQLite apps stopped around the nightly run. Off-site copy is next.
+- **Alerts:** Beszel plus UptimeRobot, delivered to Gotify.
+
+## 📚 Docs and code
+
+| What | Where |
+|---|---|
+| Git hosting | Forgejo (moving over from Gitea), mirroring from GitHub |
+| Homelab Handbook | Interactive fix-it guides, checklists and rebuild steps, hosted on the Pi 4 |
+| Bus tracker | Private repo, hosted on the Pi 4 |
+| This profile | [previous_setups.md](previous_setups.md) lists apps I tried and dropped |
+
+## 🕰️ History
+
+Earlier versions ran on [Komodo](https://komo.do/), with Dockge before that. The old README is kept in [README_OLD.md](README_OLD.md). The move to Arcane, Pangolin and Pocket ID came in autumn 2026, along with a rebuild of both VPSes.
