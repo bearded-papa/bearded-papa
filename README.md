@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🏠 Paul's Homelab
+# 🏠 My Homelab
 
 *A small, hands-on self-hosted setup: one mini PC, two Raspberry Pis, two VPSes.*
 
@@ -8,7 +8,7 @@
 
 </div>
 
-> The *Compose* links open the stack folder in my private `server-blueprint` repo, so they only load for me. Home is behind CGNAT, so everything public goes out through a tunnel (Pangolin), never port-forwards. Most links below are login-gated.
+> The *Compose* links open the stack folder in my private `server-blueprint` repo, so they only load for me. Home is behind CGNAT, so everything public goes out through a tunnel (Pangolin), never port-forwards.
 
 ## 🚪 Getting back into it
 
@@ -31,7 +31,7 @@ flowchart LR
   D -- NFS --> R4
   D -- NFS --> R5[pi5-test]
   R4 -- Borg UI --> D
-  T{{Tailscale<br/>Tailnet Lock}} -.- D
+  T{{Tailscale}} -.- D
   T -.- R4
   T -.- R5
   T -.- V[VPS x2]
@@ -49,7 +49,7 @@ flowchart LR
 | **Drives** | 500 GB SSD + two 4 TB USB drives | App data, media, backups |
 | **pi4** | Raspberry Pi 4, 8 GB | Backups, files, web terminal, git, ntfy, the Handbook |
 | **pi5-test** | Raspberry Pi 5 | Test server: try it here first |
-| **VPS x2** | RackNerd, Debian 13 | Public edge (Pangolin) and always-on services |
+| **VPS x2** | Debian 13 | Public edge (Pangolin) and always-on services |
 
 ## 📦 Services
 
@@ -65,15 +65,15 @@ flowchart LR
 ### 📷 Files and photos
 | App | What it does | Compose |
 |---|---|---|
-| [Immich](https://immich.app/) ([live](https://immich.pauloakes.uk)) | Photos | [immich](https://github.com/bearded-papa/server-blueprint/tree/main/stacks/immich) |
+| [Immich](https://immich.app/) | Photos | [immich](https://github.com/bearded-papa/server-blueprint/tree/main/stacks/immich) |
 | [OpenCloud](https://opencloud.eu/) | File sync and sharing | [opencloud](https://github.com/bearded-papa/server-blueprint/tree/main/stacks/opencloud) |
-| [nextExplorer](https://nextexplorer.pauloakes.uk) | Web file manager | [nextexplorer](https://github.com/bearded-papa/server-blueprint/tree/main/stacks/nextexplorer) |
+| nextExplorer | Web file manager | [nextexplorer](https://github.com/bearded-papa/server-blueprint/tree/main/stacks/nextexplorer) |
 
 ### 🧰 Everyday
 | App | What it does | Compose |
 |---|---|---|
 | [Mealie](https://mealie.io/) | Recipes | [mealie](https://github.com/bearded-papa/server-blueprint/tree/main/stacks/mealie) |
-| [GeoPulse](https://geopulse.pauloakes.uk) | Location history (Life360 replacement) | [geopulse](https://github.com/bearded-papa/server-blueprint/tree/main/stacks/geopulse) |
+| GeoPulse | Self-hosted location timeline | [geopulse](https://github.com/bearded-papa/server-blueprint/tree/main/stacks/geopulse) |
 | Bus tracker | Live bus map using Bus Open Data Service | [bus-tracker](https://github.com/bearded-papa/server-blueprint/tree/main/stacks/bus-tracker) |
 
 ### 🛠️ Ops
@@ -81,18 +81,18 @@ flowchart LR
 |---|---|---|
 | [Homepage](https://gethomepage.dev/) | The dashboard this page is modelled on | [homepage](https://github.com/bearded-papa/server-blueprint/tree/main/stacks/homepage) |
 | [Arcane](https://getarcane.app/) | Docker deployments from Git | — |
-| [Beszel](https://beszel.pauloakes.uk) | Host monitoring | [beszel](https://github.com/bearded-papa/server-blueprint/tree/main/stacks/beszel) |
-| [Scrutiny](https://scrutiny.pauloakes.uk) | Drive SMART health | [scrutiny](https://github.com/bearded-papa/server-blueprint/tree/main/stacks/scrutiny) |
-| [Borg UI](https://borg-ui.pauloakes.uk) | Backups | [borg-ui](https://github.com/bearded-papa/server-blueprint/tree/main/stacks/borg-ui) |
-| [Gotify](https://gotify.pauloakes.uk) · [ntfy](https://ntfy.pauloakes.uk) | Notifications | [gotify](https://github.com/bearded-papa/server-blueprint/tree/main/stacks/gotify) · [ntfy](https://github.com/bearded-papa/server-blueprint/tree/main/stacks/ntfy) |
-| [Termix](https://terminal.pauloakes.uk) | Web SSH | [termix](https://github.com/bearded-papa/server-blueprint/tree/main/stacks/termix) |
+| [Beszel](https://beszel.dev/) | Host monitoring | [beszel](https://github.com/bearded-papa/server-blueprint/tree/main/stacks/beszel) |
+| Scrutiny | Drive SMART health | [scrutiny](https://github.com/bearded-papa/server-blueprint/tree/main/stacks/scrutiny) |
+| Borg UI | Backups | [borg-ui](https://github.com/bearded-papa/server-blueprint/tree/main/stacks/borg-ui) |
+| [Gotify](https://gotify.net/) · [ntfy](https://ntfy.sh/) | Notifications | [gotify](https://github.com/bearded-papa/server-blueprint/tree/main/stacks/gotify) · [ntfy](https://github.com/bearded-papa/server-blueprint/tree/main/stacks/ntfy) |
+| Termix | Web SSH | [termix](https://github.com/bearded-papa/server-blueprint/tree/main/stacks/termix) |
 
 ### 🔐 Edge and identity
 | App | What it does | Compose |
 |---|---|---|
 | [Pangolin](https://github.com/fosrl/pangolin) | Tunnelled public access with SSO | [pangolin-site](https://github.com/bearded-papa/server-blueprint/tree/main/stacks/pangolin-site) |
-| [Pocket ID](https://id.pauloakes.uk) | Passkey login (OIDC) | [pocket-id](https://github.com/bearded-papa/server-blueprint/tree/main/stacks/pocket-id) |
-| [Tailscale](https://tailscale.com/) | Private network, Tailnet Lock on | — |
+| [Pocket ID](https://pocket-id.org/) | Passkey login (OIDC) | [pocket-id](https://github.com/bearded-papa/server-blueprint/tree/main/stacks/pocket-id) |
+| [Tailscale](https://tailscale.com/) | Private network between the machines | — |
 
 ## 🔗 Infrastructure
 
@@ -104,7 +104,7 @@ flowchart LR
 ## 📏 Lessons and rules
 
 - **Docker bypasses the firewall.** Published ports go around UFW, so bind them to `127.0.0.1` or the Tailscale address, never bare, on anything exposed.
-- **One tunnel for everything public.** Pangolin SSO in front by default, Pocket ID where the app supports it, and always a local admin login as a way back in.
+- **One tunnel for everything public.** Pangolin SSO in front by default, Pocket ID where the app supports it.
 - **Bind mounts only,** with absolute paths, and appdata under one folder per host. SQLite databases go on local disk, not NFS.
 - **Stop SQLite apps around the backup,** dump Postgres, and let apps that make their own zips run.
 - **Memory limits** on every heavy container; the Dell only has 8 GB.
@@ -131,4 +131,4 @@ flowchart LR
 
 ## 🕰️ History
 
-Earlier versions ran on [Komodo](https://komo.do/), with Dockge before that. The old README is kept in [README_OLD.md](README_OLD.md). The move to Arcane, Pangolin and Pocket ID came in autumn 2026, along with a rebuild of both VPSes.
+Earlier versions ran on [Komodo](https://komo.do/), with Dockge before that. The old README is kept in [README_OLD.md](README_OLD.md). The move to Arcane, Pangolin and Pocket ID came in autumn 2026.
