@@ -131,4 +131,4 @@ flowchart LR
 
 ## 🕰️ History
 
-Earlier versions ran on [Komodo](https://komo.do/), with Dockge before that. The old README is kept in [README_OLD.md](README_OLD.md). The move to Arcane, Pangolin and Pocket ID came in autumn 2026.
+Earlier versions ran on [Komodo](https://komo.do/), with Dockge before that. The move to Arcane, Pangolin and Pocket ID came in autumn 2026.
