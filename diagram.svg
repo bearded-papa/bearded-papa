@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-label="Diagram: the internet reaches Pangolin on a VPS, which tunnels to the Dell and the Pi 4. Both Pis mount the Dell's drives over NFS. Arcane deploys stacks from a Git repo. Tailscale links every machine.">
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#334155"/></marker></defs>
+<rect width="640" height="420" rx="10" fill="#ffffff" stroke="#cbd5e1"/>
+<g font-family="Arial,Helvetica,sans-serif" font-size="14" fill="#0f172a" text-anchor="middle">
+<rect x="270" y="14" width="100" height="34" rx="17" fill="#e2e8f0" stroke="#64748b"/><text x="320" y="36">Internet</text>
+<rect x="210" y="84" width="220" height="50" rx="8" fill="#fde7c4" stroke="#b86f00"/><text x="320" y="106" font-weight="700">Pangolin (on a VPS)</text><text x="320" y="124" font-size="12">SSO + Pocket ID</text>
+<rect x="30" y="196" width="220" height="56" rx="8" fill="#dbeafe" stroke="#2563eb"/><text x="140" y="219" font-weight="700">dell-server</text><text x="140" y="238" font-size="12">Docker host, NFS server</text>
+<rect x="290" y="196" width="150" height="56" rx="8" fill="#dbeafe" stroke="#2563eb"/><text x="365" y="219" font-weight="700">pi4</text><text x="365" y="238" font-size="12">backups, files, git</text>
+<rect x="480" y="196" width="140" height="56" rx="8" fill="#e5e7eb" stroke="#64748b"/><text x="550" y="219" font-weight="700">pi5-test</text><text x="550" y="238" font-size="12">test server</text>
+<rect x="30" y="300" width="220" height="50" rx="8" fill="#dcfce7" stroke="#16a34a"/><text x="140" y="322" font-weight="700">Arcane</text><text x="140" y="340" font-size="12">deploys from server-blueprint</text>
+<rect x="30" y="372" width="590" height="30" rx="15" fill="#f1f5f9" stroke="#64748b" stroke-dasharray="6 4"/><text x="325" y="392">Tailscale links every machine</text>
+</g>
+<g stroke="#334155" stroke-width="2" fill="none" marker-end="url(#a)">
+<path d="M320 48V82"/>
+<path d="M270 134L160 194"/>
+<path d="M350 134L360 194"/>
+<path d="M140 298V254"/>
+<path d="M288 224H252"/>
+<path d="M478 224H442"/>
+</g>
+<g font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#334155" text-anchor="middle">
+<text x="205" y="158">tunnel</text><text x="372" y="160">tunnel</text>
+<text x="270" y="216">NFS</text><text x="460" y="216">NFS</text>
+<text x="395" y="330">The two Pis mount the Dell's drives over NFS,</text><text x="395" y="346">so the Dell is the first thing to check.</text>
+</g>
+</svg>

@@ -23,23 +23,7 @@ Coming back after a break? Start here.
 
 ## 🧭 How it fits together
 
-```mermaid
-flowchart LR
-  U([Internet]) --> P[Pangolin on a VPS<br/>SSO + Pocket ID]
-  P -- tunnels --> D[dell-server<br/>Docker host, NFS server]
-  P -- tunnels --> R4[pi4]
-  D -- NFS --> R4
-  D -- NFS --> R5[pi5-test]
-  R4 -- Borg UI --> D
-  T{{Tailscale}} -.- D
-  T -.- R4
-  T -.- R5
-  T -.- V[VPS x2]
-  A[Arcane<br/>Git Sync] -- deploys --> D
-  A -- edge agents --> R4
-  A -- edge agents --> R5
-  G[(server-blueprint)] --> A
-```
+![How the machines fit together](diagram.svg)
 
 ## 🖥️ Hardware
 
