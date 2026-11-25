@@ -1,61 +1,85 @@
-# Current Setup
+<div align="center">
 
-All the following stacks are setup using the GitHub repo in [Komodo](https://komo.do/)
+# 🏠 Paul's Homelab
 
-### [Pi 4](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fpi4)
-- [Backrest](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fpi4/backrest)
-- [Beszel Agent](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fpi4/beszel_agent)
-- [Dockge](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fpi4/dockge)
-- [Dozzle Agent](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fpi4/dozzle_agent)
-- [Immich](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fpi4/immich)
-- [MeTube](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fpi4/metube)
-- [Newt](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fpi4/newt)
-- [Otterwiki](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fpi4/otterwiki)
-- [Paperless NGX](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fpi4/paperless_ngx)
-- [Portracker](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fpi4/portracker)
-- [Slink](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fpi4/slink)
-- [Termix](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fpi4/termix)
+*A small, hands-on self-hosted setup: one mini PC, two Raspberry Pis, two VPSes.*
 
-### [Pi 5](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fpi5)
-- [Beszel & Agent](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fpi5/beszel_plus_agent)
-- [Dockge](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fpi5/dockge)
-- [Dozzle](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fpi5/dozzle)
-- [File Browser](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fpi5/filebrowser)
-- [Media Stack](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fpi5/media_stack)
-- [Newt](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fpi5/newt)
-- [Portracker](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fpi5/portracker)
+[Hardware](#-hardware) · [Services](#-services) · [Infrastructure](#-infrastructure) · [Docs](#-docs-and-code) · [History](#-history)
 
-### [Racknerd 2.5gb](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fracknerd_2.5gb)
-- [Beszel Agent](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fracknerd_2.5gb/beszel_agent)
-- [Bytestash](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fracknerd_2.5gb/bytestash)
-- [Dashy](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fracknerd_2.5gb/dashy)
-- [Dockge](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fracknerd_2.5gb/dockge)
-- [Dozzle Agent](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fracknerd_2.5gb/dozzle_agent)
-- [Gotify](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fracknerd_2.5gb/gotify)
-- [Gotify Alerter](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fracknerd_2.5gb/gotify_alerter)
-- [Hedgedoc](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fracknerd_2.5gb/hedgedoc)
-- [Immich Machine Learning](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fracknerd_2.5gb/immich_machine_learning)
-- [Linkwarden](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fracknerd_2.5gb/linkwarden)
-- [Mealie](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fracknerd_2.5gb/mealie)
-- [Mini QR](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fracknerd_2.5gb/mini_qr)
-- [Newt](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fracknerd_2.5gb/newt)
-- [Portracker](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fracknerd_2.5gb/portracker)
-- [Vikunja](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fracknerd_2.5gb/vikunja)
+</div>
 
-### [Racknerd - Pangolin](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fracknerd_pangolin)
-- [Beszel Agent](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fracknerd_pangolin/beszel_agent)
-- [Dockge](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fracknerd_pangolin/dockge)
-- [Dozzle Agent](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fracknerd_pangolin/dozzle_agent)
-- [Newt](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fracknerd_pangolin/newt)
-- [Portracker](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fracknerd_pangolin/portracker)
+> Home is behind CGNAT, so everything public goes out through a tunnel (Pangolin), never port-forwards. Most links below are login-gated.
 
-### [Komodo](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fkomodo)
-- [Komodo Agent - Pangolin](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fkomodo/komodo_agent_pangolin)
-- [Komodo Agent - Pi4](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fkomodo/komodo_agent_pi4)
-- [Komodo Agent - Pi5](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fkomodo/komodo_agent_pi5)
-- [Komodo Agent - Racknerd 2.5gb](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fkomodo/komodo_agent_racknerd)
-- [Komodo Core - Racknerd 2.5gb](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fkomodo/komodo_core_racknerd)
+## 🖥️ Hardware
 
-### [Common](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fcommon)
-- [Twingate - congenial-chamois](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fcommon/congenial-chamois)
-- [Twingate - tunneling-chipmunk](https://github.com/bearded-papa/Komodo/tree/main/stacks%2Fcommon/tunneling-chipmunk)
+| Machine | Spec | Role |
+|---|---|---|
+| **dell-server** | Dell OptiPlex 3060 Micro, i5-8500T, 8 GB, Ubuntu | Main Docker host; exports its drives over NFS |
+| **Drives** | 500 GB SSD + two 4 TB USB drives | App data, media, backups |
+| **pi4** | Raspberry Pi 4, 8 GB | Backups, files, web terminal, git, ntfy, the Handbook |
+| **pi5-test** | Raspberry Pi 5 | Test server: try it here first |
+| **VPS x2** | RackNerd, Debian 13 | Public edge (Pangolin) and always-on services |
+
+## 📦 Services
+
+### 🎬 Media
+| App | What it does |
+|---|---|
+| [Jellyfin](https://jellyfin.org/) | Media server |
+| [Sonarr](https://sonarr.tv/) · [Radarr](https://radarr.video/) · [Prowlarr](https://prowlarr.com/) | TV, movies and indexers |
+| [qBittorrent](https://www.qbittorrent.org/) | Downloads |
+| [Seerr](https://github.com/seerr-team/seerr) | Requests for family and friends |
+| [Cleanuparr](https://github.com/Cleanuparr/Cleanuparr) · [Reclaimerr](https://github.com/jessielw/reclaimerr) | Queue and library tidying |
+
+### 📷 Files and photos
+| App | What it does |
+|---|---|
+| [Immich](https://immich.app/) ([live](https://immich.pauloakes.uk)) | Photos |
+| [OpenCloud](https://opencloud.eu/) | File sync and sharing |
+| [nextExplorer](https://nextexplorer.pauloakes.uk) | Web file manager |
+
+### 🧰 Everyday
+| App | What it does |
+|---|---|
+| [Mealie](https://mealie.io/) | Recipes |
+| [FreshRSS](https://freshrss.org/) | RSS reader |
+| [GeoPulse](https://geopulse.pauloakes.uk) | Location history (Life360 replacement) |
+| Bus tracker | Live bus map using Bus Open Data Service |
+
+### 🛠️ Ops
+| App | What it does |
+|---|---|
+| [Homepage](https://gethomepage.dev/) | The dashboard this page is modelled on |
+| [Arcane](https://getarcane.app/) | Docker deployments from Git |
+| [Beszel](https://beszel.pauloakes.uk) | Host monitoring |
+| [Scrutiny](https://scrutiny.pauloakes.uk) | Drive SMART health |
+| [Borg UI](https://borg-ui.pauloakes.uk) | Backups |
+| [Gotify](https://gotify.pauloakes.uk) · [ntfy](https://ntfy.pauloakes.uk) | Notifications |
+| [Termix](https://terminal.pauloakes.uk) | Web SSH |
+
+### 🔐 Edge and identity
+| App | What it does |
+|---|---|
+| [Pangolin](https://github.com/fosrl/pangolin) | Tunnelled public access with SSO |
+| [Pocket ID](https://id.pauloakes.uk) | Passkey login (OIDC) |
+| [Tailscale](https://tailscale.com/) | Private network, Tailnet Lock on |
+
+## 🔗 Infrastructure
+
+- **Deploys:** Arcane Git Sync from a private repo of Compose stacks. Bind mounts only, memory limits on heavy containers.
+- **Storage:** Pis mount the Dell's drives over NFS.
+- **Backups:** Borg, with SQLite apps stopped around the nightly run. Off-site copy is next.
+- **Alerts:** Beszel plus UptimeRobot, delivered to Gotify.
+
+## 📚 Docs and code
+
+| What | Where |
+|---|---|
+| Git hosting | Forgejo (moving over from Gitea), mirroring from GitHub |
+| Homelab Handbook | Interactive fix-it guides, checklists and rebuild steps, hosted on the Pi 4 |
+| Bus tracker | Private repo, hosted on the Pi 4 |
+| This profile | [previous_setups.md](previous_setups.md) lists apps I tried and dropped |
+
+## 🕰️ History
+
+Earlier versions ran on [Komodo](https://komo.do/), with Dockge before that. The old README is kept in [README_OLD.md](README_OLD.md). The move to Arcane, Pangolin and Pocket ID came in autumn 2026, along with a rebuild of both VPSes.
