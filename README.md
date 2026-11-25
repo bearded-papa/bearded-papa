@@ -4,11 +4,42 @@
 
 *A small, hands-on self-hosted setup: one mini PC, two Raspberry Pis, two VPSes.*
 
-[Hardware](#-hardware) · [Services](#-services) · [Infrastructure](#-infrastructure) · [Docs](#-docs-and-code) · [History](#-history)
+[Get back in](#-getting-back-into-it) · [Hardware](#-hardware) · [Services](#-services) · [Infrastructure](#-infrastructure) · [Lessons](#-lessons-and-rules) · [Planned](#-planned-and-in-progress) · [Docs](#-docs-and-code) · [History](#-history)
 
 </div>
 
 > The *Compose* links open the stack folder in my private `server-blueprint` repo, so they only load for me. Home is behind CGNAT, so everything public goes out through a tunnel (Pangolin), never port-forwards. Most links below are login-gated.
+
+## 🚪 Getting back into it
+
+Coming back after a break? Start here.
+
+1. **Read the Handbook first.** Its *What's next* list and *Fix-It* guides say what is open and what to do when something breaks. It is hosted on the Pi 4 and built from a private repo (`homelab-handbook`).
+2. **Per-host notes** live in a Claude Project, "Selfhosting Help": a context file and a checklist for each machine. Each file says when it was last checked. If one is over a week old, re-run its refresh steps before trusting it.
+3. **Deploying:** edit the stack in `server-blueprint`, merge, and Arcane syncs it. Never edit containers by hand on a host.
+4. **Trying something new:** run it on `pi5-test` first, with throwaway secrets, a memory limit and a test port.
+5. **Daily and weekly:** check Beszel and the Gotify alerts, confirm last night's Borg run, and look at the Handbook's weekly routine list.
+6. **Something is down:** check the Dell first, because the Pis mount its drives over NFS and the backups sit on them.
+
+## 🧭 How it fits together
+
+```mermaid
+flowchart LR
+  U([Internet]) --> P[Pangolin on a VPS<br/>SSO + Pocket ID]
+  P -- tunnels --> D[dell-server<br/>Docker host, NFS server]
+  P -- tunnels --> R4[pi4]
+  D -- NFS --> R4
+  D -- NFS --> R5[pi5-test]
+  R4 -- Borg UI --> D
+  T{{Tailscale<br/>Tailnet Lock}} -.- D
+  T -.- R4
+  T -.- R5
+  T -.- V[VPS x2]
+  A[Arcane<br/>Git Sync] -- deploys --> D
+  A -- edge agents --> R4
+  A -- edge agents --> R5
+  G[(server-blueprint)] --> A
+```
 
 ## 🖥️ Hardware
 
@@ -69,6 +100,25 @@
 - **Storage:** Pis mount the Dell's drives over NFS.
 - **Backups:** Borg, with SQLite apps stopped around the nightly run. Off-site copy is next.
 - **Alerts:** Beszel plus UptimeRobot, delivered to Gotify.
+
+## 📏 Lessons and rules
+
+- **Docker bypasses the firewall.** Published ports go around UFW, so bind them to `127.0.0.1` or the Tailscale address, never bare, on anything exposed.
+- **One tunnel for everything public.** Pangolin SSO in front by default, Pocket ID where the app supports it, and always a local admin login as a way back in.
+- **Bind mounts only,** with absolute paths, and appdata under one folder per host. SQLite databases go on local disk, not NFS.
+- **Stop SQLite apps around the backup,** dump Postgres, and let apps that make their own zips run.
+- **Memory limits** on every heavy container; the Dell only has 8 GB.
+- **Test first** on the spare Pi, and decide by a date written in the first line of the test stack.
+- **Secrets** stay out of this repo. Placeholders in `.env` files are checked with `grep -c PASTE`, never by reading the file.
+- **Prove it:** a check only counts when its output has been seen, and a script is a draft until it has run.
+
+## 🔭 Planned and in progress
+
+- Off-site Borg copies (a second job to a remote repo, after Postgres dumps are set up)
+- Retiring Gitea for Forgejo (Forgejo is live; mirrors are being added)
+- Pi 4 boot drive: SD card to SSD
+- Ansible playbooks for the machines, with a web UI
+- Trying a DNS resolver and a private search engine on the test Pi
 
 ## 📚 Docs and code
 
