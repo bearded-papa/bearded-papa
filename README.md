@@ -12,34 +12,11 @@
 
 ## 🚪 Getting back into it
 
-Coming back after a break? Start here.
-
-1. **Read the Handbook first.** Its *What's next* list and *Fix-It* guides say what is open and what to do when something breaks. It is hosted on the Pi 4 and built from a private repo (`homelab-handbook`).
-2. **Per-host notes** live in a Claude Project, "Selfhosting Help": a context file and a checklist for each machine. Each file says when it was last checked. If one is over a week old, re-run its refresh steps before trusting it.
-3. **Deploying:** edit the stack in `server-blueprint`, merge, and Arcane syncs it. Never edit containers by hand on a host.
-4. **Trying something new:** run it on `pi5-test` first, with throwaway secrets, a memory limit and a test port.
-5. **Daily and weekly:** check Beszel and the Gotify alerts, confirm last night's Borg run, and look at the Handbook's weekly routine list.
-6. **Something is down:** check the Dell first, because the Pis mount its drives over NFS and the backups sit on them.
+Coming back after a break? Open the Handbook and start with its *Coming back after a break* guide. It covers what to check first, where everything lives and what is still open. It is hosted privately, so the details stay off this page.
 
 ## 🧭 How it fits together
 
-```mermaid
-flowchart LR
-  U([Internet]) --> P[Pangolin on a VPS<br/>SSO + Pocket ID]
-  P -- tunnels --> D[dell-server<br/>Docker host, NFS server]
-  P -- tunnels --> R4[pi4]
-  D -- NFS --> R4
-  D -- NFS --> R5[pi5-test]
-  R4 -- Borg UI --> D
-  T{{Tailscale}} -.- D
-  T -.- R4
-  T -.- R5
-  T -.- V[VPS x2]
-  A[Arcane<br/>Git Sync] -- deploys --> D
-  A -- edge agents --> R4
-  A -- edge agents --> R5
-  G[(server-blueprint)] --> A
-```
+![How the machines fit together](diagram.svg)
 
 ## 🖥️ Hardware
 
