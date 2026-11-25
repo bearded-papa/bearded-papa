@@ -8,7 +8,7 @@
 
 </div>
 
-> Home is behind CGNAT, so everything public goes out through a tunnel (Pangolin), never port-forwards. Most links below are login-gated.
+> The *Compose* links open the stack folder in my private `server-blueprint` repo, so they only load for me. Home is behind CGNAT, so everything public goes out through a tunnel (Pangolin), never port-forwards. Most links below are login-gated.
 
 ## 🖥️ Hardware
 
@@ -23,46 +23,46 @@
 ## 📦 Services
 
 ### 🎬 Media
-| App | What it does |
-|---|---|
-| [Jellyfin](https://jellyfin.org/) | Media server |
-| [Sonarr](https://sonarr.tv/) · [Radarr](https://radarr.video/) · [Prowlarr](https://prowlarr.com/) | TV, movies and indexers |
-| [qBittorrent](https://www.qbittorrent.org/) | Downloads |
-| [Seerr](https://github.com/seerr-team/seerr) | Requests for family and friends |
-| [Cleanuparr](https://github.com/Cleanuparr/Cleanuparr) · [Reclaimerr](https://github.com/jessielw/reclaimerr) | Queue and library tidying |
+| App | What it does | Compose |
+|---|---|---|
+| [Jellyfin](https://jellyfin.org/) | Media server | [media_stack](https://github.com/bearded-papa/server-blueprint/tree/main/stacks/media_stack) |
+| [Sonarr](https://sonarr.tv/) · [Radarr](https://radarr.video/) · [Prowlarr](https://prowlarr.com/) | TV, movies and indexers | [media_stack](https://github.com/bearded-papa/server-blueprint/tree/main/stacks/media_stack) |
+| [qBittorrent](https://www.qbittorrent.org/) | Downloads | [media_stack](https://github.com/bearded-papa/server-blueprint/tree/main/stacks/media_stack) |
+| [Seerr](https://github.com/seerr-team/seerr) | Requests for family and friends | [media_stack](https://github.com/bearded-papa/server-blueprint/tree/main/stacks/media_stack) |
+| [Cleanuparr](https://github.com/Cleanuparr/Cleanuparr) · [Reclaimerr](https://github.com/jessielw/reclaimerr) | Queue and library tidying | [media_stack](https://github.com/bearded-papa/server-blueprint/tree/main/stacks/media_stack) |
 
 ### 📷 Files and photos
-| App | What it does |
-|---|---|
-| [Immich](https://immich.app/) ([live](https://immich.pauloakes.uk)) | Photos |
-| [OpenCloud](https://opencloud.eu/) | File sync and sharing |
-| [nextExplorer](https://nextexplorer.pauloakes.uk) | Web file manager |
+| App | What it does | Compose |
+|---|---|---|
+| [Immich](https://immich.app/) ([live](https://immich.pauloakes.uk)) | Photos | [immich](https://github.com/bearded-papa/server-blueprint/tree/main/stacks/immich) |
+| [OpenCloud](https://opencloud.eu/) | File sync and sharing | [opencloud](https://github.com/bearded-papa/server-blueprint/tree/main/stacks/opencloud) |
+| [nextExplorer](https://nextexplorer.pauloakes.uk) | Web file manager | [nextexplorer](https://github.com/bearded-papa/server-blueprint/tree/main/stacks/nextexplorer) |
 
 ### 🧰 Everyday
-| App | What it does |
-|---|---|
-| [Mealie](https://mealie.io/) | Recipes |
-| [FreshRSS](https://freshrss.org/) | RSS reader |
-| [GeoPulse](https://geopulse.pauloakes.uk) | Location history (Life360 replacement) |
-| Bus tracker | Live bus map using Bus Open Data Service |
+| App | What it does | Compose |
+|---|---|---|
+| [Mealie](https://mealie.io/) | Recipes | [mealie](https://github.com/bearded-papa/server-blueprint/tree/main/stacks/mealie) |
+| [FreshRSS](https://freshrss.org/) | RSS reader | — |
+| [GeoPulse](https://geopulse.pauloakes.uk) | Location history (Life360 replacement) | [geopulse](https://github.com/bearded-papa/server-blueprint/tree/main/stacks/geopulse) |
+| Bus tracker | Live bus map using Bus Open Data Service | [bus-tracker](https://github.com/bearded-papa/server-blueprint/tree/main/stacks/bus-tracker) |
 
 ### 🛠️ Ops
-| App | What it does |
-|---|---|
-| [Homepage](https://gethomepage.dev/) | The dashboard this page is modelled on |
-| [Arcane](https://getarcane.app/) | Docker deployments from Git |
-| [Beszel](https://beszel.pauloakes.uk) | Host monitoring |
-| [Scrutiny](https://scrutiny.pauloakes.uk) | Drive SMART health |
-| [Borg UI](https://borg-ui.pauloakes.uk) | Backups |
-| [Gotify](https://gotify.pauloakes.uk) · [ntfy](https://ntfy.pauloakes.uk) | Notifications |
-| [Termix](https://terminal.pauloakes.uk) | Web SSH |
+| App | What it does | Compose |
+|---|---|---|
+| [Homepage](https://gethomepage.dev/) | The dashboard this page is modelled on | [homepage](https://github.com/bearded-papa/server-blueprint/tree/main/stacks/homepage) |
+| [Arcane](https://getarcane.app/) | Docker deployments from Git | — |
+| [Beszel](https://beszel.pauloakes.uk) | Host monitoring | [beszel](https://github.com/bearded-papa/server-blueprint/tree/main/stacks/beszel) |
+| [Scrutiny](https://scrutiny.pauloakes.uk) | Drive SMART health | [scrutiny](https://github.com/bearded-papa/server-blueprint/tree/main/stacks/scrutiny) |
+| [Borg UI](https://borg-ui.pauloakes.uk) | Backups | [borg-ui](https://github.com/bearded-papa/server-blueprint/tree/main/stacks/borg-ui) |
+| [Gotify](https://gotify.pauloakes.uk) · [ntfy](https://ntfy.pauloakes.uk) | Notifications | [gotify](https://github.com/bearded-papa/server-blueprint/tree/main/stacks/gotify) · [ntfy](https://github.com/bearded-papa/server-blueprint/tree/main/stacks/ntfy) |
+| [Termix](https://terminal.pauloakes.uk) | Web SSH | [termix](https://github.com/bearded-papa/server-blueprint/tree/main/stacks/termix) |
 
 ### 🔐 Edge and identity
-| App | What it does |
-|---|---|
-| [Pangolin](https://github.com/fosrl/pangolin) | Tunnelled public access with SSO |
-| [Pocket ID](https://id.pauloakes.uk) | Passkey login (OIDC) |
-| [Tailscale](https://tailscale.com/) | Private network, Tailnet Lock on |
+| App | What it does | Compose |
+|---|---|---|
+| [Pangolin](https://github.com/fosrl/pangolin) | Tunnelled public access with SSO | [pangolin-site](https://github.com/bearded-papa/server-blueprint/tree/main/stacks/pangolin-site) |
+| [Pocket ID](https://id.pauloakes.uk) | Passkey login (OIDC) | [pocket-id](https://github.com/bearded-papa/server-blueprint/tree/main/stacks/pocket-id) |
+| [Tailscale](https://tailscale.com/) | Private network, Tailnet Lock on | — |
 
 ## 🔗 Infrastructure
 
@@ -75,8 +75,8 @@
 
 | What | Where |
 |---|---|
-| Git hosting | Forgejo (moving over from Gitea), mirroring from GitHub |
-| Homelab Handbook | Interactive fix-it guides, checklists and rebuild steps, hosted on the Pi 4 |
+| Git hosting | Forgejo (moving over from Gitea), mirroring from GitHub, stack: [forgejo](https://github.com/bearded-papa/server-blueprint/tree/main/stacks/forgejo) |
+| Homelab Handbook | Interactive fix-it guides, checklists and rebuild steps, hosted on the Pi 4 ([repo](https://github.com/bearded-papa/homelab-handbook), stack: [handbook](https://github.com/bearded-papa/server-blueprint/tree/main/stacks/handbook)) |
 | Bus tracker | Private repo, hosted on the Pi 4 |
 | This profile | [previous_setups.md](previous_setups.md) lists apps I tried and dropped |
 
