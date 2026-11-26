@@ -105,6 +105,7 @@ Coming back after a break? Open the Handbook and start with its *Coming back aft
 | Homelab Handbook | Interactive fix-it guides, checklists and rebuild steps, hosted on the Pi 4 ([repo](https://github.com/bearded-papa/homelab-handbook), stack: [handbook](https://github.com/bearded-papa/server-blueprint/tree/main/stacks/handbook)) |
 | Bus tracker | Private repo, hosted on the Pi 4 |
 | This profile | Apps I tried and dropped: [Forgejo](/paulo/.profile/src/branch/main/previous_setups.md) · [GitHub](https://github.com/bearded-papa/bearded-papa/blob/main/previous_setups.md) |
+| Source repos | GitHub: [server-blueprint](https://github.com/bearded-papa/server-blueprint) · [homelab-handbook](https://github.com/bearded-papa/homelab-handbook). Forgejo mirror: [homelab-handbook](https://forgejo.pauloakes.uk/paulo/homelab-handbook) |
 
 ## History
 
