@@ -16,7 +16,7 @@ Coming back after a break? Open the Handbook and start with its *Coming back aft
 
 ## 🧭 How it fits together
 
-![How the machines fit together](diagram.svg)
+![How the machines fit together](https://raw.githubusercontent.com/bearded-papa/bearded-papa/main/diagram.svg)
 
 ## 🖥️ Hardware
 
@@ -104,7 +104,7 @@ Coming back after a break? Open the Handbook and start with its *Coming back aft
 | Git hosting | Forgejo (moving over from Gitea), mirroring from GitHub, stack: [forgejo](https://github.com/bearded-papa/server-blueprint/tree/main/stacks/forgejo) |
 | Homelab Handbook | Interactive fix-it guides, checklists and rebuild steps, hosted on the Pi 4 ([repo](https://github.com/bearded-papa/homelab-handbook), stack: [handbook](https://github.com/bearded-papa/server-blueprint/tree/main/stacks/handbook)) |
 | Bus tracker | Private repo, hosted on the Pi 4 |
-| This profile | [previous_setups.md](previous_setups.md) lists apps I tried and dropped |
+| This profile | Apps I tried and dropped: [Forgejo](/paulo/.profile/src/branch/main/previous_setups.md) · [GitHub](https://github.com/bearded-papa/bearded-papa/blob/main/previous_setups.md) |
 
 ## 🕰️ History
 
