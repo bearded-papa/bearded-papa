@@ -4,21 +4,21 @@
 
 *A small, hands-on self-hosted setup: one mini PC, two Raspberry Pis, two VPSes.*
 
-[Get back in](#-getting-back-into-it) · [Hardware](#-hardware) · [Services](#-services) · [Infrastructure](#-infrastructure) · [Lessons](#-lessons-and-rules) · [Planned](#-planned-and-in-progress) · [Docs](#-docs-and-code) · [History](#-history)
+[Get back in](#getting-back-into-it) · [Hardware](#hardware) · [Services](#services) · [Infrastructure](#infrastructure) · [Lessons](#lessons-and-rules) · [Planned](#planned-and-in-progress) · [Docs](#docs-and-code) · [History](#history)
 
 </div>
 
 > The *Compose* links open the stack folder in my private `server-blueprint` repo, so they only load for me. Home is behind CGNAT, so everything public goes out through a tunnel (Pangolin), never port-forwards.
 
-## 🚪 Getting back into it
+## Getting back into it
 
 Coming back after a break? Open the Handbook and start with its *Coming back after a break* guide. It covers what to check first, where everything lives and what is still open. It is hosted privately, so the details stay off this page.
 
-## 🧭 How it fits together
+## How it fits together
 
 ![How the machines fit together](https://raw.githubusercontent.com/bearded-papa/bearded-papa/main/diagram.svg)
 
-## 🖥️ Hardware
+## Hardware
 
 | Machine | Spec | Role |
 |---|---|---|
@@ -28,7 +28,7 @@ Coming back after a break? Open the Handbook and start with its *Coming back aft
 | **pi5-test** | Raspberry Pi 5 | Test server: try it here first |
 | **VPS x2** | Debian 13 | Public edge (Pangolin) and always-on services |
 
-## 📦 Services
+## Services
 
 ### 🎬 Media
 | App | What it does | Compose |
@@ -71,14 +71,14 @@ Coming back after a break? Open the Handbook and start with its *Coming back aft
 | [Pocket ID](https://pocket-id.org/) | Passkey login (OIDC) | [pocket-id](https://github.com/bearded-papa/server-blueprint/tree/main/stacks/pocket-id) |
 | [Tailscale](https://tailscale.com/) | Private network between the machines | — |
 
-## 🔗 Infrastructure
+## Infrastructure
 
 - **Deploys:** Arcane Git Sync from a private repo of Compose stacks. Bind mounts only, memory limits on heavy containers.
 - **Storage:** Pis mount the Dell's drives over NFS.
 - **Backups:** Borg, with SQLite apps stopped around the nightly run. Off-site copy is next.
 - **Alerts:** Beszel plus UptimeRobot, delivered to Gotify.
 
-## 📏 Lessons and rules
+## Lessons and rules
 
 - **Docker bypasses the firewall.** Published ports go around UFW, so bind them to `127.0.0.1` or the Tailscale address, never bare, on anything exposed.
 - **One tunnel for everything public.** Pangolin SSO in front by default, Pocket ID where the app supports it.
@@ -89,7 +89,7 @@ Coming back after a break? Open the Handbook and start with its *Coming back aft
 - **Secrets** stay out of this repo. Placeholders in `.env` files are checked with `grep -c PASTE`, never by reading the file.
 - **Prove it:** a check only counts when its output has been seen, and a script is a draft until it has run.
 
-## 🔭 Planned and in progress
+## Planned and in progress
 
 - Off-site Borg copies (a second job to a remote repo, after Postgres dumps are set up)
 - Retiring Gitea for Forgejo (Forgejo is live; mirrors are being added)
@@ -97,7 +97,7 @@ Coming back after a break? Open the Handbook and start with its *Coming back aft
 - Ansible playbooks for the machines, with a web UI
 - Trying a DNS resolver and a private search engine on the test Pi
 
-## 📚 Docs and code
+## Docs and code
 
 | What | Where |
 |---|---|
@@ -106,6 +106,6 @@ Coming back after a break? Open the Handbook and start with its *Coming back aft
 | Bus tracker | Private repo, hosted on the Pi 4 |
 | This profile | Apps I tried and dropped: [Forgejo](/paulo/.profile/src/branch/main/previous_setups.md) · [GitHub](https://github.com/bearded-papa/bearded-papa/blob/main/previous_setups.md) |
 
-## 🕰️ History
+## History
 
 Earlier versions ran on [Komodo](https://komo.do/), with Dockge before that. The move to Arcane, Pangolin and Pocket ID came in autumn 2026.
